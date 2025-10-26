@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]([https://your-solution-url.com](https://github.com/somaia02/article-preview))
-- Live Site URL: [Live site]([https://your-live-site-url.com](https://somaia02.github.io/article-preview/))
+- Solution URL: [Solution](https://github.com/somaia02/article-preview)
+- Live Site URL: [Live site](https://somaia02.github.io/article-preview/)
 
 ## My process
 
