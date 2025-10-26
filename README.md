@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop version](./desktop.png)
-![Mobile version](./mobile.png)
-![Shows popover](./popover.png)
+![Desktop version](./desktop.PNG)
+![Mobile version](./mobile.PNG)
+![Shows popover](./popover.PNG)
 
 ### Links
 
