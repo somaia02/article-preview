@@ -1,0 +1,141 @@
+:root {
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 0.81rem;
+}
+h2 {
+    font-weight: 700;
+}
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--light-grayish-blue);
+    min-height: 100vh;
+}
+.main {
+    display: flex;
+    margin-block-start: auto;
+    width: 75%;
+    max-width: 750px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+    background: #fff;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        width: 80%;
+        margin-block: 20px;
+    }
+}
+.main__img {
+    width: 50%;
+    @media (max-width: 600px) {
+        width: auto;
+    }
+}
+.preview {
+    width: 50%;
+    padding: 30px;
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    @media (max-width: 600px) {
+        width: auto;
+    }
+}
+.preview__txt {
+    color: var(--desaturated-dark-blue);
+}
+.preview__footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.author-img {
+    border-radius: 50px;
+    height: 3em;
+}
+.author-name {
+    font-weight: 500;
+}
+.date {
+    opacity: 60%;
+}
+.light-bg {
+    background: var(--light-grayish-blue);
+    color: var(--desaturated-dark-blue);
+}
+.dark-bg {
+    background: var(--desaturated-dark-blue);
+    color: #fff;
+}
+.share-btn {
+    position-anchor: --share-button;
+    border-radius: 100px;
+    aspect-ratio: 1;
+    border: none;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.share-icons-mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: var(--very-dark-grayish-blue);
+    color: var(--grayish-blue);
+    gap: 15px;
+    padding: 1em 2.5em;
+}
+
+.share-icons-desktop {   
+    background: var(--very-dark-grayish-blue);
+    color: var(--grayish-blue);
+    gap: 10px;
+    padding: 1em 2em;
+
+    position: relative;
+    inset: auto;
+    bottom: anchor(top);
+    right: anchor(center);
+    margin-block-end: 20px;
+    transform: translateX(50%);
+    border: none;
+    border-radius: 10px;
+    overflow: visible;
+        
+    &:after {
+        content: '';
+        position: absolute;
+        right: calc(50% - 15px);
+        bottom: -15px;
+        border-bottom: none;
+        border-inline: 15px solid transparent;
+        border-top: 15px solid var(--very-dark-grayish-blue);
+    }
+
+    &:popover-open{
+        display: flex;
+    }
+}
+
+footer {
+    padding: 10px;
+    margin-block-start: auto;
+    font-size: 0.69rem;
+}
