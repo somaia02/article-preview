@@ -26,12 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![Desktop version](./desktop.png)
+![Mobile version](./mobile.png)
+![Shows popover](./popover.png)
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution]([https://your-solution-url.com](https://github.com/somaia02/article-preview))
+- Live Site URL: [Live site]([https://your-live-site-url.com](https://somaia02.github.io/article-preview/))
 
 ## My process
 
