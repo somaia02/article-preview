@@ -15,7 +15,7 @@ img {
 }
 body {
     font-family: "Manrope", sans-serif;
-    font-size: clamp(0.5rem, 2vw, 1rem);
+    font-size: clamp(0.75rem, 1vw, 1rem);
 }
 .container {
     width: 85%;
@@ -162,5 +162,5 @@ h1 {
 
 footer {
     padding: 10px;
-    font-size: max(0.69rem, 1vw);
+    font-size: max(0.69rem, 0.5vw);
 }
